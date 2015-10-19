@@ -1,9 +1,8 @@
 
-
-#CC = gcc
-#CFLAGS = -Wall -Wextra -pedantic -std=c90 -Wfloat-equal
 CC = clang
-CFLAGS = -Weverything -pedantic -std=c89
+CFLAGS = -Wall -Wextra -pedantic -std=c90 -Wfloat-equal
+#CC = clang
+#CFLAGS = -Weverything -pedantic -std=c89
 LIBS = -lm
 SOURCE = roman.c
 OUTFILE = roman.exe

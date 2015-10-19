@@ -14,7 +14,6 @@
 #include <math.h>
 
 
-
 #define MAX_ALLOWED_REPEAT 3
 #define SYMBOL_SIZE 3
 #define NUM_SYMBOLS 13
@@ -46,7 +45,6 @@ int needTwoSymbols(char *roman);
 
 int lookup(char *symbolArray, char *symbol);
 
-
 int main(int argc, char **argv) {
     if (argc == 2) {
         printf("The roman numeral %s is equal to %d\n", argv[1], romanToArabic (argv[1]));
@@ -56,7 +54,6 @@ int main(int argc, char **argv) {
 
     return 0;
 }
-
 
 int romanToArabic(char *roman) {
     char *symbolArray;
