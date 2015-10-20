@@ -78,7 +78,9 @@ int romanToArabic(char *roman) {
 
     free(symbolArray);
 
+
     return sum;
+
 }
 
 void exitOnInvalidSequence(char *roman, char *symbolArray) {

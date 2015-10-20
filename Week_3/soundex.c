@@ -44,7 +44,6 @@ int main(int argc, char **argv) {
 	return 0;
 }
 
-
 void generateCode(char *name, char *code) {
 	int i, moveCur;
 	char *cur = name;
@@ -96,6 +95,8 @@ int lookup(char c) {
 	if (isIn(c, SKIP)) {
 		return 0;
 	}
+
+	printf("%d")
 
 	return -1;
 }

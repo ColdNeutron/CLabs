@@ -19,7 +19,7 @@ int getLen(char *str);
 
 void copyStr(char *src, char *dst);
 
-void cleanStr(char *src); /* Removes all non-alphabet characters and convert remaining letters to lower case */
+void cleanStr(char *src);
 
 void reverseStr(char *src);
 
@@ -33,6 +33,7 @@ int main(void)
 	char str[MAX_SIZE];
 
 	printf("Enter a string : ");
+
 	getLine(str);
 
 	if(isPalindrome(str)){
